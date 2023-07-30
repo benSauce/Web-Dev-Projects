@@ -20,23 +20,31 @@ But it must have the following features:
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width= , initial-scale=1.0">
-  <title>Document</title>
+  <title>Motivational Meme</title>
   <style>
-    div{
+
+    body{
       background-color: black;
+    }
+
+    h1{
+      text-transform: uppercase;
+      font-size: 3rem;
+    }
+
+    .memePoster{
+      color: white;
       text-align: center;
       width: 100%;
-
-    }
-    h1{
-      color: white;
+      width: 60%;
+      margin-left: 25%;
+      margin-top: 15%;
       font-family: 'Libre Baskerville', serif;
     }
 
-    #sleepyPrince{
+    .motiImage{
       border: 5px solid white;
-      width: 60%;
-      margin-top: 5%;
+      width: 100%;
     }
 
     p{
@@ -50,8 +58,8 @@ But it must have the following features:
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div>
-    <img id="sleepyPrince" src="./assets/images/actingAsleep.jpg" />
+  <div class="memePoster">
+    <img class="motiImage" src="./assets/images/actingAsleep.jpg" />
 
     <h1>Acting asleep when you're in trouble</h1>
 
