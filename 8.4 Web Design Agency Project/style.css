@@ -14,30 +14,27 @@ h1 {
   font-size: 5rem;
 }
 
-
 footer {
   text-align: right;
   color: midnightblue;
 }
 
-.card{
-  height: 300px;
-  width: 900px;
-}
-
-.left{
-  float: left;
-}
-
-.right{
-  float: right;
-}
-
-.tile-image{
-  height: 300px;
+.tile-image {
+  height: 200px;
   float: left;
   margin-right: 50px;
-  margin-bottom: 400px;
+}
+
+.card {
+  width: 45%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
 }
 
 #creative{
@@ -47,6 +44,7 @@ footer {
 #agency{
   color: blueviolet;
 }
+
 
 @media (max-width: 680px) {
   .logo {
@@ -65,7 +63,7 @@ footer {
     text-align: justify;
   }
 
-  .card img {
+  .tile-image {
     margin-bottom: 10px;
     width: 100%;
     display: inline;
