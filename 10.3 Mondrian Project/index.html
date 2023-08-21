@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container{
+      background-color: black;
+      height: 748px;
+      width: 748px;
+      display: grid;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 20px;
+      gap: 9px;      
+    }
+
+    .redBox{
+      background-color: #E72F24;
+    }
+
+    .w2ndBox{
+      grid-column: span 3;
+    }
+
+    .w3rdBox{
+      grid-row: span 2;
+    }
+
+    .w4thBox{
+      grid-area: 2/ 2/ 4/ 4;
+    }
+
+    .blueBox{
+      background-color: #004592;
+    }
+
+    .blacBox{
+      background-color: black;
+      
+    }
+
+    .w6thBox{
+      grid-row: span 2;
+    }
+
+    .yellowBox{
+      background-color: #F9D01E;
+      
+    }
+
+    .darkBox{
+      background-color: #232629;
+      
+    }
+
+    .whiteBox{
+      background-color: #F0F1EC;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+    <div class="redBox">
+      redBox
+    </div>
+    <div class="whiteBox w2ndBox">
+      2ndBox
+    </div>
+    <div class="whiteBox w3rdBox">
+      3rdBox
+    </div>
+    <div class="whiteBox w4thBox">
+      4thBox
+    </div>
+    <div class="blueBox">
+      blueBox
+    </div>
+    <div class="whiteBox w6thBox">
+      6thBox
+    </div>
+    <div class="whiteBox w7thBox">
+      7thBox
+    </div>
+    <div class="yellowBox">
+      yellowBox
+    </div>
+    <div class="darkBox">
+      darkBox
+    </div>
+
+  </div>
+</body>
+
+</html>
