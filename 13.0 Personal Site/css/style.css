@@ -1,0 +1,163 @@
+/*****************TAG SELECTORS*******************/
+a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+div{
+
+}
+
+h1{
+    color: #66BFBF;
+    line-height: 2;
+    margin: 0 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 560%;
+}
+
+h2{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+    border-color: rgba(38, 47, 47, 0.29);
+    border-style: dotted none none;
+    border-width: 6px;
+    width: 3%;
+    margin: 120px auto 120px auto;
+}
+
+p{
+    line-height: 2;
+}
+
+/*****************CLASS SELECTORS*******************/
+.bottom-cloud{
+    position: absolute;
+    left: 33%;
+    bottom: 300px;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    color: #EAF6F6;
+    height: 10rem;
+    text-align: center;
+}
+
+.bottom-content{
+    position: relative;
+    top: 50px;
+}
+
+.bottom-mountain{
+    padding-bottom: 0;
+    position: relative;
+    bottom: -3px;
+}
+
+.btn {
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+    background-image: linear-gradient(to bottom, #66BFBF, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0px;
+}
+
+.footer-link{
+    color: #11999E;
+    padding: 0px 30px 0px 30px;
+}
+
+.middle-container{
+    margin-bottom: 100px;
+}
+
+.profile{
+    margin: 100px auto 100px auto;
+    width: 30%;
+}
+
+.skills-img-left{
+    float: left;
+    margin-right: 30px;
+    text-align: center;
+    width: 40%;
+}
+
+.skills-img-right{
+    float: right;
+    margin-left: 30px;
+    text-align: center;
+    width: 40%;
+}
+
+.skill-row{
+    display: inline-block;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    width: 50%;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 33%;
+    top: 50px;
+}
+
+.top-container{
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+/*****************ID SELECTORS*******************/
+
+#profilePic{
+    padding-top: 20px;
+    height: 300px;
+    width: 300px;
+}
